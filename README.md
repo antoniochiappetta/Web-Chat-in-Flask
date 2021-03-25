@@ -1,5 +1,5 @@
 # Usage
-Run the Flash server using the bash script start.sh
+Run the Flask server using the bash script `start.sh`, which updates the environment variables and calls `flask run`.
 
 # DTLAB-CHAT
 [WEEK 3] Laboratorio per le lezioni degli studenti del Cisco DTLAB 2021 sui capitoli 5-6 del corso DEVASC.
