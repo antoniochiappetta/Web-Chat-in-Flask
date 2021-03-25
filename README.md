@@ -1,5 +1,9 @@
 # Usage
-Run the Flask server using the bash script `start.sh`, which updates the environment variables and calls `flask run`.
+- Start server locally:
+  - Run the Flask server using the bash script `start.sh`, which updates the environment variables and calls `flask run`.
+- Start server in Docker container:
+  - Build the container using the bash script `build_container.sh`, which uses the `Dockerfile`.
+  - Run the containerized web app using the bash script `start_container.sh`, which exposes the app on the port 5000.
 
 # DTLAB-CHAT
 [WEEK 3] Laboratorio per le lezioni degli studenti del Cisco DTLAB 2021 sui capitoli 5-6 del corso DEVASC.
