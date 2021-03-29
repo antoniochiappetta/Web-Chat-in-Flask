@@ -1,3 +1,4 @@
+docker rm teamcity-server-instance
 docker run -it --name teamcity-server-instance  \
     -v /data/teamcity_server/datadir \ 
     -v /opt/teamcity/logs  \ 
