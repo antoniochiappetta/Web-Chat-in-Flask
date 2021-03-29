@@ -62,7 +62,7 @@ def deleteUser():
         code = getErrorCode(result)
         return '', code
     else:
-        return '', 200
+        return '', 204
 
 @app.route('/login', methods=['POST'])
 def login():
